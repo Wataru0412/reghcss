@@ -1,11 +1,11 @@
 {
   "name": "reghcss",
-  "source": "src/index.ts",
+  "source": "src/index.tsx",
   "main": "dist/index.ts",
   "module": "dist/index.module.ts",
   "unpkg": "dist/index.umd.ts",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle -o ./dist --sourcemap false",
     "dev": "microbundle watch"
   },
   "version": "0.0.1",
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/sadnessOjisan/reghcss#readme",
   "devDependencies": {
+    "@types/react": "^16.9.49",
     "microbundle": "^0.12.3",
     "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
   }
 }
