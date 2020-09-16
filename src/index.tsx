@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./github-markdown.css";
 import { styled, setup } from "goober";
 
 setup(React.createElement);
