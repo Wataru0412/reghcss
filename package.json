@@ -1,14 +1,14 @@
 {
   "name": "@sadness.ojisan/reghcss",
   "source": "src/index.tsx",
-  "main": "dist/index.ts",
-  "module": "dist/index.module.ts",
-  "unpkg": "dist/index.umd.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "repository": {
     "type": "git",
