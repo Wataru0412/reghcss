@@ -5,7 +5,7 @@
   "module": "dist/index.module.ts",
   "unpkg": "dist/index.umd.ts",
   "scripts": {
-    "build": "microbundle -o ./dist --sourcemap false",
+    "build": "microbundle",
     "dev": "microbundle watch"
   },
   "version": "0.0.1",
