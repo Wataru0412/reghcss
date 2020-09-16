@@ -1,5 +1,5 @@
 {
-  "name": "reghcss",
+  "name": "@sadness_ojisan/reghcss",
   "source": "src/index.tsx",
   "main": "dist/index.ts",
   "module": "dist/index.module.ts",
@@ -27,5 +27,8 @@
   },
   "dependencies": {
     "react": "^16.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
