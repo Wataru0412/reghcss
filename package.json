@@ -1,5 +1,5 @@
 {
-  "name": "@sadness_ojisan/reghcss",
+  "name": "@sadness.ojisan/reghcss",
   "source": "src/index.tsx",
   "main": "dist/index.ts",
   "module": "dist/index.module.ts",
