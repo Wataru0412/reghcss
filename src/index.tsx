@@ -1,7 +1,12 @@
 import * as React from "react";
+import "./github-markdown.css";
 
-const Wrapper = () => {
-  return <div>hello world!!</div>;
+interface IProps {
+  html: string;
+}
+
+const ArticleWrapper: React.FC<IProps> = (props) => {
+  return <div className="markdown-body">{props.html}</div>;
 };
 
-export { Wrapper };
+export { ArticleWrapper };
