@@ -8,7 +8,7 @@ interface IProps {
 }
 
 const ArticleWrapper: React.FC<IProps> = (props) => {
-  return <Wrapper>{props.html}</Wrapper>;
+  return <Wrapper dangerouslySetInnerHTML={{ __html: props.html }}></Wrapper>;
 };
 
 const Wrapper = styled("div")`
@@ -621,13 +621,13 @@ const Wrapper = styled("div")`
     box-shadow: inset 0 -1px 0 #d1d5da;
   }
 
-  .markdown-body:after,
-  .markdown-body:before {
+  &:after,
+  &:before {
     display: table;
     content: "";
   }
 
-  .markdown-body:after {
+  &:after {
     clear: both;
   }
 
