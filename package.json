@@ -2,20 +2,18 @@
   "name": "@sadness.ojisan/reghcss",
   "source": "src/index.tsx",
   "main": "dist/index.js",
-  "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
   },
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "description": "component library for GitHub like Article",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sadnessOjisan/reghcss.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "@sadness.ojisan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sadnessOjisan/reghcss/issues"
   },
@@ -31,5 +29,8 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "dist/**"
+  ]
 }
