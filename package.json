@@ -6,7 +6,7 @@
     "build": "microbundle",
     "dev": "microbundle watch"
   },
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "component library for GitHub like Article",
   "repository": {
     "type": "git",
