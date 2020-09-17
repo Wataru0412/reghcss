@@ -1,10 +1,16 @@
 # reghcss
 
-styling article to GitHub like.
+component library to create GitHub like article.
+
+## how to use
+
+install package
 
 ```
 npm install @sadness.ojisan/reghcss
 ```
+
+pass html(string) as props
 
 ```tsx
 import * as React from "react";
